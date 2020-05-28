@@ -1,0 +1,16 @@
+#cre{
+  border-radius: 50px 50px 50px 50px;
+  background-color: darkblue;
+  color: bisque;
+}
+.form-control{
+  background-color: darkblue;
+  border-radius: 50px 50px 50px 50px;
+  color: bisque;
+}
+#floor{
+  width: 80px;
+}
+#night{
+  width: 80px;
+}

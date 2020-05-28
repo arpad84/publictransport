@@ -1,0 +1,16 @@
+<div class="logpanel">
+  <form id="form-panel">
+    <input class="form-controller1 form-input rounded-pill" type="text"
+           placeholder="username" #name />
+    <input class="form-controller2 form-input rounded-pill" type="password"
+           placeholder="password" #pass />
+    <button id ="btn1" type="button" (click)="login(name, pass)"
+            class="form-controller form-button">LOGIN</button>
+    <p class="form-controller3 form-label">
+      <span id="text1">Already have an account? </span> <button id="text2" type="button" class="register" (click)="reg()">Register</button>
+    </p>
+  </form>
+</div>
+
+<router-outlet></router-outlet>
+s

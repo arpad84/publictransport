@@ -1,0 +1,52 @@
+.block{
+  background-color: darkblue;
+  color: bisque;
+}
+.card-columns{
+  column-count: 5;
+}
+#del{
+  border-radius: 50px 50px 50px 50px;
+}
+.SlideMenu1 {
+  position: fixed;
+  color: bisque;
+  left: 0px;
+  top: 200px;
+  width: 70px;
+  height: 50px;
+  background: darkblue;
+  transition: width 1s;
+  border-radius: 0px 50px 50px 0px;
+}
+.SlideMenu1:hover {
+  width: 150px;
+}
+.SlideMenu2 {
+  position: fixed;
+  color: bisque;
+  left: 0px;
+  top: 260px;
+  width: 70px;
+  height: 50px;
+  background: darkblue;
+  transition: width 1s;
+  border-radius: 0px 50px 50px 0px;
+}
+.SlideMenu2:hover {
+  width: 150px;
+}
+.SlideMenu3 {
+  position: fixed;
+  color: bisque;
+  left: 0px;
+  top: 320px;
+  width: 70px;
+  height: 50px;
+  background: darkblue;
+  transition: width 1s;
+  border-radius: 0px 50px 50px 0px;
+}
+.SlideMenu3:hover {
+  width: 150px;
+}

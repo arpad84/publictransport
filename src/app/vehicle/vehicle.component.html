@@ -1,0 +1,19 @@
+<div class="container">
+  <br/>
+  <div class="block card mb-3 rounded-pill" *ngFor="let item of Vehicles" >
+    <div class="col">
+      <div class="col-12">
+        <div class="card-columns">
+          <p class="card-title"> Vehicle type: {{item.VehicleName}} </p>
+          <p class="card-text"> Line: {{item.VehicleNumber}} </p>
+          <p class="card-text"> Low floor: {{item.IsLowFloor === true ? 'YES' : 'NO'}} </p>
+          <p class="card-text"> Night line: {{item.IsNight === true ? 'YES' : 'NO'}} </p>
+          <button id="del" type="button" class="badge badge-danger" (click)="delete(item.Uid)" class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="SlideMenu1" type="button" (click)="listOf('Bus')">Buses only</div>
+    <div class="SlideMenu2" type="button" (click)="listOf('Trolley')">Trollies only</div>
+    <div class="SlideMenu3" type="button" (click)="listOf('Tram')">Trams only</div>
+  </div>
+</div>

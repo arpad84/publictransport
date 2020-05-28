@@ -1,0 +1,12 @@
+<div class="logpanel">
+  <form id="form-panel">
+    <input class="form-controller1 form-input rounded-pill" type="text"
+           placeholder="enter your email" #email />
+    <input class="form-controller2 form-input rounded-pill" type="password"
+           placeholder="enter your password" #pass />
+    <button id ="btn1" type="button" (click)="register(email, pass)"
+            class="form-controller form-button">REGISTER</button>
+  </form>
+</div>
+
+<router-outlet></router-outlet>
